@@ -21,5 +21,3 @@ What we propose:
 
 
 Visit our documentation page at [[http://try-try.readthedocs.org/][doc]].
-
-[[https://secure.travis-ci.org/imankulov/trytry.png?branch%253Dmaster][Build Status]]
