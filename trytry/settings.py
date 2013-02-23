@@ -2,7 +2,7 @@
 import os
 
 BASEDIR = os.path.dirname(os.path.realpath(__file__))
-TIME_ZONE = 'America/Chicago'
+TIME_ZONE = 'Asia/Yekaterinburg'
 LANGUAGE_CODE = 'en-us'
 SITE_ID = 1
 USE_I18N = True
@@ -97,9 +97,9 @@ LOGGING = {
 #--- Default settings for try-try defined values
 TRYTRY_SOFT_TIMEOUT = 5
 TRYTRY_HARD_TIMEOUT = 10
-TRYTRY_LXC_ENABLED = False
-TRYTRY_LXC_DEFAULT_CONTAINER = 'try-try'
-TRYTRY_PROJECT_NAME = 'Try-try project'
+TRYTRY_LXC_ENABLED = True
+TRYTRY_LXC_DEFAULT_CONTAINER = 'paaseca'
+TRYTRY_PROJECT_NAME = 'Paaseca project'
 
 #--- Override whatever we want
 from localsettings import *
